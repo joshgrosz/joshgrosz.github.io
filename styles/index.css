@@ -1,0 +1,11 @@
+body {
+    overflow: hidden;
+}
+
+.links {
+    margin-left: 30vh;
+    margin-bottom: 30vh;
+    margin-right: 30vh;
+    margin-top: 30vh;
+    font-size: larger;
+}
