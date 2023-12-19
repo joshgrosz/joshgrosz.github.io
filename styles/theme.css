@@ -24,7 +24,12 @@ a:hover {
 }
 
 #home {
-  position:fixed;
+  position: fixed;
   bottom:0;
   left:0;
+}
+
+#username:hover, #home:hover {
+  border-style: solid;
+  border-color: aqua;
 }

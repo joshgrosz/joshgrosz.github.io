@@ -1,6 +1,6 @@
 .photo {
     height: auto;
-    width: auto;
+    width: 700px;
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
@@ -10,5 +10,6 @@
 #map {
     position: relative;
     outline-style: none;
-    min-height: 300px;
+    min-height: 333px;
+    min-width: 333px;
 }
