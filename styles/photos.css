@@ -1,4 +1,12 @@
-.photos {
+.photo {
+    height: auto;
+    width: auto;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 80px;
+}
+
+#map {
+    min-height: 300px;
 }

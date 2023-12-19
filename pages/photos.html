@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
     <link rel="stylesheet" href="/styles/theme.css">
     <link rel="stylesheet" href="/styles/photos.css">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
@@ -10,7 +16,13 @@
 </head>
 <body>
     Contained here are some photos I've taken through travels and outings. If you like them and decide to use them somewhere feel free to as they are <a href="https://www.lib.purdue.edu/uco/fair-use">fair-use</a>.
-    <div class="photos">WIP</div> 
+    <div class="photo">
+        <img src="../assets/IMG_6355.jpg" alt="Bottom-up view of the middle of the Hirshhorn Museum." width="400" height="333">
+        <img src="../assets/IMG_6359.jpg" alt="View of one of the Hirshhorn exhibits" width="333" height="400">
+        <div id="map">
+            <script src="../scripts/map.js"></script>
+        </div>      
+    </div>
     <p id="home">
         <a href="../index.html">Home</a>
     </p>
