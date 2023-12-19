@@ -4,5 +4,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-var a = L.marker([38.88815,-77.02296]).addTo(map);
-var b = L.marker([38.88800,-77.02317].addTo(map));
+var hMuseum = L.marker([38.88815,-77.02296]).addTo(map);
+var hExhibit = L.marker([38.88800,-77.02317]).addTo(map);
+var obelisk = L.marker([38.88948, -77.03525]).addTo(map);
