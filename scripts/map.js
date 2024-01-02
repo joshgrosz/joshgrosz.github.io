@@ -5,5 +5,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var hMuseum = L.marker([38.88815,-77.02296]).addTo(map);
+hMuseum.bindPopup("Hirshorn Museum - 38.88815,-77.02296").openPopup();
 var hExhibit = L.marker([38.88800,-77.02317]).addTo(map);
+hExhibit.bindPopup("Hirshhorn Exhibit - 38.88800,-77.02317").openPopup();
 var obelisk = L.marker([38.88948, -77.03525]).addTo(map);
+obelisk.bindPopup("Obelisk - 38.88948, -77.03525").openPopup();

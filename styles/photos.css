@@ -8,6 +8,7 @@
 }
 
 #map {
+    z-index: 0;
     position: relative;
     outline-style: none;
     min-height: 333px;
